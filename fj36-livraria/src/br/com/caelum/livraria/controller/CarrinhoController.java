@@ -102,6 +102,7 @@ public class CarrinhoController {
 			return REDIRECT_CARRINHO_LISTAR;
 		}
 
+		//Pensar em uma forma de persistir antes de enviar
 		Pedido pedido = this.carrinho.finalizarPedido();
 		this.manager.persist(pedido);
 

@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package br.com.caelum.jms;
+
+import javax.jms.ConnectionFactory;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+/**
+ * @author soa4769
+ * 
+ */
+public class RegistraFinanceiroNoTopico {
+
+	/**
+	 * @param args
+	 * @throws NamingException 
+	 */
+	public static void main(String[] args) throws NamingException {
+		InitialContext initialContext = new InitialContext();
+		ConnectionFactory factory = (ConnectionFactory) initialContext
+				.lookup("ConnectionFactory");
+
+	}
+}

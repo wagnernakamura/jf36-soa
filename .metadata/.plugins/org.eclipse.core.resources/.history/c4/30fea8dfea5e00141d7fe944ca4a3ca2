@@ -1,0 +1,49 @@
+/**
+ * 
+ */
+package br.com.caelum.jms;
+
+import java.util.Scanner;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+import javax.jms.MessageConsumer;
+import javax.jms.Session;
+import javax.jms.Topic;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+/**
+ * @author soa4769
+ * 
+ */
+public class RegistraFinanceiroNoTopico {
+
+	/**
+	 * @param args
+	 * @throws NamingException
+	 * @throws JMSException
+	 */
+	public static void main(String[] args) throws NamingException, JMSException {
+		InitialContext initialContext = new InitialContext();
+		ConnectionFactory factory = (ConnectionFactory) initialContext
+				.lookup("ConnectionFactory");
+		Connection connection = factory.createConnection();
+		Topic topico = (Topic) initialContext.lookup("livararia");
+		Session sessao = connection.createSession(false,
+				Session.AUTO_ACKNOWLEDGE);
+
+		MessageConsumer receiver = sessao.createConsumer(topico,
+				"AssinaturaNotas");
+		receiver.setMessageListener(new TratadorDeMensagem());
+
+		connection.start();
+
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Financeiro esperando as mensagens do tópico...");
+
+		teclado.close();
+		connection.close();
+	}
+}

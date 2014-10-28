@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package br.com.caelum.jms;
+
+/**
+ * @author soa4769
+ *
+ */
+public class RegistraFinanceiroNoTopico {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

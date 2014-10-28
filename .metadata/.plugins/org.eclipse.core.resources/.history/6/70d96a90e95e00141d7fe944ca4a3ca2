@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package br.com.caelum.jms;
+
+import javax.jms.ConnectionFactory;
+import javax.naming.InitialContext;
+
+/**
+ * @author soa4769
+ * 
+ */
+public class RegistraFinanceiroNoTopico {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		InitialContext initialContext = new InitialContext();
+		ConnectionFactory factory = (ConnectionFactory) initialContext
+				.lookup("ConnectionFactory");
+
+	}
+}
