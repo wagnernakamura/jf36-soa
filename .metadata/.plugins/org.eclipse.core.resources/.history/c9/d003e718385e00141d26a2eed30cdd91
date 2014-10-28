@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package br.com.caelum.jms;
+
+import javax.jms.Message;
+import javax.jms.MessageListener;
+
+/**
+ * @author soa4769
+ *
+ */
+public class TratadorDeMensagem implements MessageListener {
+
+	/* (non-Javadoc)
+	 * @see javax.jms.MessageListener#onMessage(javax.jms.Message)
+	 */
+	@Override
+	public void onMessage(Message message) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

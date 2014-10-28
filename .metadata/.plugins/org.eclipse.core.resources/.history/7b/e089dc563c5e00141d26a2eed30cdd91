@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package br.com.caelum.jms;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.naming.InitialContext;
+
+/**
+ * @author soa4769
+ * JMS 1.0 - QueueConnectionFactory
+ * JMS 1.1 - ConnectionFactory (Generalizou)
+ */
+public class RegistraTratadorNaFila {
+
+	/**
+	 * @param args
+	 * @throws Exception 
+	 */
+	public static void main(String[] args) throws Exception {
+		InitialContext initialContext = new InitialContext();
+		
+		ConnectionFactory factory = (ConnectionFactory) initialContext.lookup("ConnetionFactory");
+		Connection connection = factory.createConnection();
+		
+	}
+}

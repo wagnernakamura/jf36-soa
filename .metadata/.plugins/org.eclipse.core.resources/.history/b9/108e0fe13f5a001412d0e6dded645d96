@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.caelum.payfast.rest;
+
+import javax.ws.rs.ApplicationPath;
+
+/**
+ * @author soa4769
+ *
+ */
+@ApplicationPath("/")
+public class PagamentoService extends Application{
+
+	/**
+	 * 
+	 */
+	public PagamentoService() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

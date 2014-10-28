@@ -1,0 +1,693 @@
+!SESSION 2014-10-21 19:03:17.441 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:04:49.885
+!MESSAGE Module fj36-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:04:49.924
+!MESSAGE Module spring-web-3.2.1.RELEASE.jar published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:05:00.079
+!MESSAGE Module fj36-webservice published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 20:05:15.036
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 20:05:45.251
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:15:20.252
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 20:15:22.054
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 20:15:33.556
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 20:15:54.230
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:16:31.118
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 20:16:32.199
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 20:16:37.092
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 20:16:58.570
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:17:56.616
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:18:00.196
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 20:18:01.212
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 20:18:06.173
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 20:18:27.318
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 20:20:42.214
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 20:20:51.506
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 20:21:12.751
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:37:52.673
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:37:54.966
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 20:38:17.923
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 20:38:24.916
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 20:38:48.002
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 20:40:44.539
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 20:40:54.105
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 20:41:00.209
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 20:41:21.806
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:01:03.818
+!MESSAGE 7 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:04:30.129
+!MESSAGE 2 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:11:39.062
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 22:11:42.623
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:19:19.845
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:19:19.850
+!MESSAGE 2 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 22:19:26.819
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 22:19:47.484
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:20:07.900
+!MESSAGE 4 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:20:45.397
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:20:53.432
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:22:17.276
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 22:22:21.332
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 22:22:32.497
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 22:22:54.544
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:23:07.818
+!MESSAGE 7 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:23:45.034
+!MESSAGE 5 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:24:30.814
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:24:43.101
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:25:37.037
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:26:23.782
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:26:34.947
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:29:29.650
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:29:55.828
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:30:25.194
+!MESSAGE 2 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:30:47.430
+!MESSAGE 11 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:31:11.497
+!MESSAGE 11 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:31:35.700
+!MESSAGE 2 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:31:53.217
+!MESSAGE 2 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:32:01.425
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:32:32.916
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:32:37.331
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:32:58.499
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:33:04.710
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:33:19.058
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:33:21.406
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:33:30.776
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 22:33:46.807
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-21 22:33:53.251
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-21 22:34:16.215
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:34:17.256
+!MESSAGE 11 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:34:33.368
+!MESSAGE 8 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:34:49.755
+!MESSAGE 2 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:35:13.761
+!MESSAGE 2 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:36:31.056
+!MESSAGE 2 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:37:24.259
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-21 22:37:32.726
+!MESSAGE 1 files modified in module fj36-livraria
+
+!ENTRY unknown 0 0 2014-10-21 22:37:58.661
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2014-10-21 22:37:58.693
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-21 22:58:08.637
+!MESSAGE Server processes have been terminated.
+!SESSION 2014-10-22 19:06:37.313 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 19:08:13.190
+!MESSAGE Module fj36-webservice published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 19:08:16.384
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 19:08:38.270
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 20:57:01.006
+!MESSAGE 3 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:03:16.333
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:04:32.909
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:05:14.637
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:06:03.359
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:06:48.193
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:08:12.992
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:10:47.028
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:11:00.807
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:11:12.428
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:14:00.730
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:14:15.659
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:14:23.113
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:14:52.418
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:15:25.884
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:15:41.142
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:16:28.667
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:16:44.008
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-10-22 21:17:17.241
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 21:17:17.684
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 21:17:18.516
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 21:17:29.446
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 21:18:40.511
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 21:19:20.616
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 21:19:31.465
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 21:26:33.620
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:26:54.369
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 21:27:03.041
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 21:27:14.577
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:27:50.739
+!MESSAGE Module fj36-webservice published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:28:51.620
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 21:28:53.014
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 21:29:07.840
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 21:29:18.689
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:29:39.817
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:30:09.401
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 21:30:10.956
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 21:30:19.482
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 21:30:30.308
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:32:24.098
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 21:32:25.963
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 21:32:52.830
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 21:33:03.761
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 21:44:05.117
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 21:52:38.223
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 21:52:50.773
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 21:53:01.711
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:01:11.728
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:01:13.355
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:01:25.677
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:01:36.524
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:02:51.947
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:02:53.380
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:03:14.490
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:03:25.331
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:04:28.444
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:05:09.777
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:05:15.133
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:05:58.218
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:06:35.044
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:06:40.796
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:06:51.625
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:07:23.932
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:07:30.541
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:08:31.396
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:08:45.208
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:09:48.547
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:09:56.015
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:10:06.858
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:11:01.458
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:11:02.800
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:11:10.798
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:11:21.644
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:11:49.124
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:11:54.637
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:11:58.641
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:11:59.512
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:12:04.490
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:12:15.310
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:12:33.215
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:12:42.313
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:13:27.870
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:13:32.461
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:13:43.287
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:14:10.557
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:14:21.866
+!MESSAGE Module fj36-webservice published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:14:29.382
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:14:40.209
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:15:01.273
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:15:20.040
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:15:28.519
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:15:39.434
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:15:44.440
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:15:55.286
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:17:09.661
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:17:12.211
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:17:12.999
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:17:26.957
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:17:37.795
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:17:43.743
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:18:00.705
+!MESSAGE Module fj36-webservice published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:18:06.080
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:19:39.633
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:19:45.015
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:19:55.845
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:20:03.511
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:20:42.673
+!MESSAGE Module fj36-webservice published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:20:47.621
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:21:04.497
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:21:36.085
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:21:48.613
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:22:10.866
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:23:48.098
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:32:29.543
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:33:02.744
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:33:13.581
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:34:18.770
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:34:23.721
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:34:45.377
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:34:56.216
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:37:23.941
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:41:35.957
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:41:54.346
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:42:07.186
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:42:18.121
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:45:22.981
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:45:37.934
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:45:56.306
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:46:07.133
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:49:38.091
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:49:41.207
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:49:41.658
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-22 22:49:46.232
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-22 22:49:57.073
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-22 22:50:34.964
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-10-22 22:51:47.960
+!MESSAGE Server processes have been terminated.
+!SESSION 2014-10-27 19:04:19.672 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-27 19:56:20.503
+!MESSAGE Module fj36-webservice published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-10-27 19:56:32.115
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-10-27 19:57:06.420
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-27 21:21:27.148
+!MESSAGE 1 files modified in module fj36-webservice
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-10-27 21:21:45.712
+!MESSAGE 1 files modified in module fj36-webservice

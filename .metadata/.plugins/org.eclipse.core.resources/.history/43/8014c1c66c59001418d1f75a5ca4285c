@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package br.com.caelum.estoque.ws;
+
+/**
+ * @author soa4769
+ *
+ */
+public class ItemEstoque {
+
+	/**
+	 * 
+	 */
+	public ItemEstoque() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

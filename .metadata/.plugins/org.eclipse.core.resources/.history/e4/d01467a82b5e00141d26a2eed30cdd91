@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package br.com.caelum.livraria.rest;
+
+import org.apache.oltu.oauth2.client.request.OAuthClientRequest;
+import org.apache.oltu.oauth2.common.message.types.GrantType;
+
+/**
+ * @author soa4769
+ *
+ */
+public class TestaOAuth2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String tokenEndpoint = "http://fj36webservicerest-oauthserver.herokuapp.com/oauth/token";
+		
+		OAuthClientRequest request = OAuthClientRequest.tokenLocation(tokenEndpoint)
+										.setGrantType(GrantType.PASSWORD)
+										.setClientId("oauth2_client_secret")
+										.setClientSecret("oauth2_client_secret")
+										.setUsername("fake_user")
+										.setPassword("passwd")
+										.buildBodyMessage();
+		
+	}
+}

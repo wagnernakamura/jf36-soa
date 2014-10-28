@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.caelum.jms;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+/**
+ * @author soa4769
+ * JMS 1.1
+ */
+public class RegistraTratadorNaFila {
+
+	/**
+	 * @param args
+	 * @throws Exception 
+	 */
+	public static void main(String[] args) throws Exception {
+		InitialContext initialContext = new InitialContext();
+	}
+}

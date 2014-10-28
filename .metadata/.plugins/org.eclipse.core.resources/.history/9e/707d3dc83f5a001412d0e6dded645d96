@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package br.com.caelum.payfast.rest;
+
+/**
+ * @author soa4769
+ *
+ */
+public class PagamentoService {
+
+	/**
+	 * 
+	 */
+	public PagamentoService() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
