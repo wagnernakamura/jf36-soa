@@ -1,0 +1,51 @@
+/**
+ * 
+ */
+package br.com.caelum.livraria.jms;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.Message;
+import javax.jms.MessageProducer;
+import javax.jms.Session;
+import javax.jms.Topic;
+import javax.naming.Context;
+import javax.naming.InitialContext;
+
+/**
+ * @author soa4769
+ * 
+ */
+public class EnviadorDeMensagensParaFila {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		InitialContext initialContext = new InitialContext();
+		
+		Context localContext = (Context) initialContext.lookup("ConnectionFactory");
+		Topic topico = (Topic) localContext.lookup("jms/topico/livraria");
+		ConnectionFactory factory = (ConnectionFactory) localContext
+				.lookup("jms/ConnectionFactory");
+
+		Connection conexao = factory.createConnection();
+		Session session = conexao
+				.createSession(false, Session.AUTO_ACKNOWLEDGE);
+
+		// crie e envie a mensagem aqui
+		MessageProducer publisher = session.createProducer(topico);
+
+		System.out.println("JMS: Enviando pedido: " + pedido);
+
+		Message msg = session.createTextMessage(pedido.toString());
+
+		// para o seletor
+		msg.setStringProperty("formato", pedido.getFormato());
+		publisher.send(msg);
+
+		session.close();
+		conexao.close();
+	}
+}
