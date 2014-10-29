@@ -13,23 +13,29 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Pedido implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	@Id @GeneratedValue 
+	@Id
+	@GeneratedValue
 	private Integer id;
-	
+
 	@Temporal(TemporalType.DATE)
 	private Calendar data;
-	
-	@OneToMany(cascade=CascadeType.PERSIST)
+
+	@OneToMany(cascade = CascadeType.PERSIST)
 	private Set<ItemCompra> itens;
 
-	@OneToOne(cascade=CascadeType.PERSIST)
-	@JoinColumn(unique=true)
+	@OneToOne(cascade = CascadeType.PERSIST)
+	@JoinColumn(unique = true)
 	private Pagamento pagamento;
 
 	public void setItens(Set<ItemCompra> itens) {
@@ -43,7 +49,7 @@ public class Pedido implements Serializable {
 	public String getFormato() {
 		return this.temApenasLivrosImpressos() ? "impresso" : "ebook";
 	}
-	
+
 	public Calendar getData() {
 		return data;
 	}
@@ -53,9 +59,9 @@ public class Pedido implements Serializable {
 	}
 
 	private boolean temApenasLivrosImpressos() {
-		
+
 		for (ItemCompra itemCompra : this.itens) {
-			if(!itemCompra.isImpresso()) {
+			if (!itemCompra.isImpresso()) {
 				return false;
 			}
 		}
@@ -67,12 +73,13 @@ public class Pedido implements Serializable {
 	}
 
 	public String getStatus() {
-		return this.pagamento == null ? "INDEFINIDO" : this.pagamento.getStatus();
+		return this.pagamento == null ? "INDEFINIDO" : this.pagamento
+				.getStatus();
 	}
-
 
 	@Override
 	public String toString() {
-		return "Pedido [id=" + id + ", itens=" + itens + ", pagamento=" + pagamento + "]";
+		return "Pedido [id=" + id + ", itens=" + itens + ", pagamento="
+				+ pagamento + "]";
 	}
 }

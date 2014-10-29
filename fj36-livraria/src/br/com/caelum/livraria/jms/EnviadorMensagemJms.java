@@ -15,6 +15,7 @@ import javax.naming.NamingException;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
+import br.com.caelum.livraria.jaxb.SerializadorXml;
 import br.com.caelum.livraria.modelo.Pedido;
 
 @Component
@@ -40,7 +41,11 @@ public class EnviadorMensagemJms implements Serializable {
 
 			System.out.println("JMS: Enviando pedido: " + pedido);
 
-			Message msg = session.createTextMessage(pedido.toString());
+			// Message msg = session.createTextMessage(pedido.toString());
+			// //Envia uma String
+			
+			Message msg = session.createTextMessage(new SerializadorXml()
+					.toXml(pedido)); // Envia um XML
 
 			// para o seletor
 			msg.setStringProperty("formato", pedido.getFormato());

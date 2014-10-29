@@ -3,10 +3,13 @@
  */
 package br.com.caelum.jaxb;
 
+import javax.xml.bind.annotation.XmlType;
+
 /**
  * @author soa4769
  *
  */
+@XmlType(name="CAT")
 public class Categoria {
 
 	private String nome;

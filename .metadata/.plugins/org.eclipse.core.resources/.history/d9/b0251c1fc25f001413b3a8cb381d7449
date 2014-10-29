@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package br.com.caelum.camel;
+
+import org.apache.camel.CamelContext;
+import org.apache.camel.builder.RouteBuilder;
+import org.apache.camel.impl.DefaultCamelContext;
+
+/**
+ * @author soa4769
+ * 
+ */
+public class TesteRoteamento {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		CamelContext context = new DefaultCamelContext();
+		context.addRoutes(new RouteBuilder){
+
+			@Override
+			public void configure() throws Exception {
+				// TODO Auto-generated method stub
+				
+			}
+		}
+	}
+}

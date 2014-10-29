@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package br.com.caelum.jaxb;
+
+import java.math.BigDecimal;
+
+/**
+ * @author soa4769
+ *
+ */
+public class TesteMarshalJson {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Livro livro = new Livro();
+		livro.setCodigo("ARQ");
+		livro.setCategoria(new Categoria("Livro Mole"));
+		livro.setNomeAutor("Eu");
+		livro.setTitulo("SOA");
+		livro.setValor(new BigDecimal(10));
+	}
+}

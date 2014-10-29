@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package br.com.caelum.jaxb;
+
+/**
+ * @author soa4769
+ *
+ */
+public class TesteValidacao {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Livro livro = new Livro();
+	}
+}

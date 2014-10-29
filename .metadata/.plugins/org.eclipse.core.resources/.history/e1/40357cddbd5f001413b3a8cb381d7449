@@ -1,0 +1,19 @@
+package br.com.caelum.livraria.jaxb;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+
+import br.com.caelum.livraria.modelo.Pedido;
+
+public class SerializadorXml {
+
+	public String toXml(Pedido pedido) {
+		try {
+			// aqui vem o codigo do marshaller
+			Marshaller marshaller = JAXBContext.newInstance(Pedido.class)
+					.createMarshaller();
+
+		} catch (Exception e) {
+		}
+	}
+}
