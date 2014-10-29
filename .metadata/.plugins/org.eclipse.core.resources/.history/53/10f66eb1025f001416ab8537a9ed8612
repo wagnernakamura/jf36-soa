@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package br.com.caelum.jaxb;
+
+/**
+ * @author soa4769
+ *
+ */
+public class TesteMarshal {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package br.com.caelum.jaxb;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Unmarshaller;
+
+/**
+ * @author soa4769
+ *
+ */
+public class TesteUnmarshal {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		JAXBContext context = JAXBContext.newInstance(Livro.class);
+		Unmarshaller unmarshaller = context.createUnmarshaller();
+		unmarshaller.unmarshal(new File("livro.xml")
+	}
+}

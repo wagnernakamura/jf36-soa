@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.caelum.jaxb;
+
+import java.math.BigDecimal;
+
+/**
+ * @author soa4769
+ * 
+ */
+public class TesteMarshal {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Livro livro = new Livro("ARQ", "Arquitetura Java", "Paulo Silveira",
+				new BigDecimal("29.90"));
+
+	}
+}
