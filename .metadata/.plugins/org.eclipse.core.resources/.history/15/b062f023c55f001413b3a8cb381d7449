@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package br.com.caelum.camel;
+
+/**
+ * @author soa4769
+ *
+ */
+public class ValidadorPedido {
+
+	/**
+	 * 
+	 */
+	public ValidadorPedido() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

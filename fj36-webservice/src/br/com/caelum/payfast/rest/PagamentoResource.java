@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.ejb.Singleton;
-import javax.ejb.Stateless;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -30,7 +29,7 @@ import br.com.caelum.payfast.modelo.Transacao;
  * 
  */
 @Path("/pagamento")
-//@Stateless
+// @Stateless
 @Singleton
 public class PagamentoResource {
 	private static Map<Integer, Pagamento> repositorio = new HashMap<>();
