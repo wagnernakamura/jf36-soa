@@ -2,4 +2,5 @@
 <typeInfoHistroy>
 <typeInfo handle="=fj36-jms/activemq-all-5.9.0.jar&lt;javax.jms(MessageListener.class[MessageListener" modifiers="1537" timestamp="1414455170000"/>
 <typeInfo handle="=fj36-jms/activemq-all-5.9.0.jar&lt;org.apache.activemq.broker.region.group(MessageGroupMapFactory.class[MessageGroupMapFactory" modifiers="1537" timestamp="1414455170000"/>
+<typeInfo handle="=fj36-jaxb/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;org.xml.sax(ErrorHandler.class[ErrorHandler" modifiers="1537" timestamp="1413489558000"/>
 </typeInfoHistroy>

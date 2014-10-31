@@ -1,0 +1,47 @@
+package br.com.caelum.livraria.camel;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import javax.jms.ConnectionFactory;
+
+import org.apache.activemq.ActiveMQConnectionFactory;
+import org.apache.camel.CamelContext;
+import org.apache.camel.LoggingLevel;
+import org.apache.camel.builder.RouteBuilder;
+import org.apache.camel.component.jms.JmsComponent;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ConfiguracaoCamel {
+
+	@Autowired
+	CamelContext context;
+
+	@PostConstruct
+	void init() throws Exception {
+		ConnectionFactory factory = new ActiveMQConnectionFactory(
+				"tcp://localhost:61616");
+
+		context.addComponent("activemq",
+				JmsComponent.jmsComponentAutoAcknowledge(factory));
+
+		context.addRoutes(new RouteBuilder() {
+
+			public void configure() throws Exception {
+				from("activemq:topic:TOPICO.LIVRARIA")
+					.log(LoggingLevel.INFO,	"CAMEL: Recebendo MSG ${id}")
+					.filter().xpath("/pedido/itens/item/formato[text()='EBOOK']")
+					.to("activemq:queue:FILA.GERADOR");
+			};
+		});
+
+		context.start();
+	}
+
+	@PreDestroy
+	void destroy() throws Exception {
+		context.stop();
+	}
+
+}
