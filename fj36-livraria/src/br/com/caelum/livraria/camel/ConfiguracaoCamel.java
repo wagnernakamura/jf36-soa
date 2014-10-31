@@ -53,6 +53,9 @@ public class ConfiguracaoCamel {
 				.log(LoggingLevel.INFO,	"CAMEL: Filtrado MSG ${id} ${body}")
 				.to("activemq:queue:FILA.GERADOR");
 				
+				//Para usar masi threads do componente.
+				//from("activemq:topic:TOPICO.LIVRARIA?concorrentConsumers=5")
+				
 				from("direct:notas")
 					.setHeader("data", constant(new SimpleDateFormat("dd/MM/yyyy").format(new Date())))
 					.split().xpath("/pedido/pagamento")

@@ -37,6 +37,7 @@ public class TesteRoteamento {
 						);
 				
 				from("file:entrada?delay=5s")
+						.threads(5)
 						.log(LoggingLevel.INFO, "Processando mensagem ${id}")
 						.bean(ValidadorPedido.class, "Validar")
 						.transform(body(String.class).regexReplaceAll("nomeAutor", "autor"))
